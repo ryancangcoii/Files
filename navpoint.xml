@@ -1,0 +1,94 @@
+<navpoint>
+  <id>yepyepyep</id>
+  <newId>0</newId>
+  <type>page</type>
+  <label>yepyepyep</label>
+  <url></url>
+  <useSSL>N</useSSL>
+  <notes>Various navpoints expected by ToolTwist.</notes>
+  <onlyContainsAliases>N</onlyContainsAliases>
+    <navpoint>
+      <id>home</id>
+      <newId>1</newId>
+      <type>page</type>
+      <label>home</label>
+      <notes>This navpoint acts as a virtual home, and can be pointed to any other page.</notes>
+      <url></url>
+      <useSSL>N</useSSL>
+      <pageWidget>yepyepyep_pages.home</pageWidget>
+    </navpoint>
+    <navpoint>
+      <id>infoblocks</id>
+      <newId>2</newId>
+      <type>group</type>
+      <label>infoblocks</label>
+      <notes>Navpoints automatically created by info zone widgets.</notes>
+      <url></url>
+      <useSSL>N</useSSL>
+    </navpoint>
+    <navpoint>
+      <id>ajaxZones</id>
+      <newId>3</newId>
+      <type>group</type>
+      <label>ajaxZones</label>
+      <notes>Navpoints automatically created by ajax zone widgets.</notes>
+      <url></url>
+      <useSSL>N</useSSL>
+    </navpoint>
+  <navpoint>
+    <id>mainMenu</id>
+    <newId>4</newId>
+    <type>group</type>
+    <label>Main menu</label>
+    <url></url>
+    <useSSL>N</useSSL>
+  </navpoint>
+  <navpoint>
+    <id>footerMenu</id>
+    <newId>5</newId>
+    <type>group</type>
+    <label>Footer menu</label>
+    <url></url>
+    <useSSL>N</useSSL>
+    <navpoint>
+      <id>contact</id>
+      <newId>6</newId>
+      <type>alias</type>
+      <label>Contact</label>
+      <url></url>
+      <useSSL>N</useSSL>
+    </navpoint>
+    <navpoint>
+      <id>copyright</id>
+      <newId>7</newId>
+      <type>page</type>
+      <label>Copyright</label>
+      <url></url>
+      <useSSL>N</useSSL>
+    </navpoint>
+    <navpoint>
+      <id>privacy</id>
+      <newId>8</newId>
+      <type>page</type>
+      <label>Privacy policy</label>
+      <url></url>
+      <useSSL>N</useSSL>
+    </navpoint>
+    <navpoint>
+      <id>disclaimer</id>
+      <newId>9</newId>
+      <type>page</type>
+      <label>Disclaimer</label>
+      <url></url>
+      <useSSL>N</useSSL>
+    </navpoint>
+  </navpoint>
+  <navpoint>
+    <id>iphone</id>
+    <newId>10</newId>
+    <type>page</type>
+    <label>iPhone Main Menu</label>
+    <url></url>
+    <useSSL>N</useSSL>
+  </navpoint>
+</navpoint>
